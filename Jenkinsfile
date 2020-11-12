@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('aaa') {
+    stage('sleep') {
       steps {
-        echo '1234'
+        sleep 1000
       }
     }
 
